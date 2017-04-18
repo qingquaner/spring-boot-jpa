@@ -10,6 +10,7 @@ public class SimpleApplication{
 	
 	private static Logger logger = LogManager.getLogger();
 	public static void main(String[] args) {
+		//启动工程
 		SpringApplication.run(SimpleApplication.class, args);
 		logger.info("工程启动成功...");
 	}
