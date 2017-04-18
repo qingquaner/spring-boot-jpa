@@ -22,6 +22,7 @@ public class LoanlimitPageServiceTest {
 	@Test
 	public void testGetLoanLimitList(){
 		Page<Loanlimits> loanLimitList = loanlimitPage.getLoanLimitList(2, 1000, Direction.ASC);
+		
 	/*	System.out.println("==================="+loanLimitList.getNumberOfElements());
 		System.out.println("==================="+loanLimitList.getNumber());
 		System.out.println("==================="+loanLimitList.getSize());
